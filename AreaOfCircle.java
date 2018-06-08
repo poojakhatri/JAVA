@@ -5,10 +5,9 @@ public class AreaOfCircle{
 
 	System.out.println("Area of Circle:");
 	System.out.println("Enter the readious of Circle:");
-	Scanner sc = new Scanner(System.in);
 
-	double pi=3.14 , area;
-	int r = sc.nextInt();		
+	double pi=3.14;
+	int r = new Scanner(System.in).nextInt();
 
 	System.out.println("Area of Circle:"+(pi*r*r));
 	}
